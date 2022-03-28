@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sanity limpieza y aprovisionamiento de recursos" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-03-28T16:35:54" hostname="22LAP5CG0525FBR" time="50.476">
+  <properties/>
+  <testcase name="se requiere realizar la suspension de una linea" classname="Sanity limpieza y aprovisionamiento de recursos" time="50.476">
+    <failure message="java.lang.AssertionError: la linea esta suspendida&#10;Expected: is &lt;1&gt;&#10;     but: was &lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: la linea esta suspendida
+Expected: is &lt;1&gt;
+     but: was &lt;0&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at com.indra.actions.SuspentionActions.consultSingleScreen2(SuspentionActions.java:153)
+	at com.indra.steps_definitions.SanitySteps.seDeberiaVerEnPantallaUnicaLaLineaEnEstadoSuspendida(SanitySteps.java:216)
+	at ✽.Se deberia ver en pantalla unica la linea en estado suspendida(src/test/resources/features/execute.feature:71)
+</failure>
+  </testcase>
+  <system-out><![CDATA[11:35:56.516 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+11:35:56.524 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
+11:36:03.157 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+11:36:03.173 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+11:36:03.327 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\5bf4c11b5d8e75a58cb69ca9319669a9f83aab32741a794292fee75f917dacde.png
+11:36:03.927 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\9e075f75088cc8be698270e4eba3a4acd10bc444f09e435fe7a5b64c5b7be9ca.png
+11:36:06.707 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\cfe46ca39b2f251ce0ead33a63302db9e1e818bb0c9040ab268c31d312928a4f.png
+11:36:07.972 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\cfe46ca39b2f251ce0ead33a63302db9e1e818bb0c9040ab268c31d312928a4f.png
+11:36:08.753 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\0c3257edfbbc2da05f6442c798333df06c066523b13c1f52a34f0c43145c4712.png
+11:36:09.551 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\5f11af71d02d7e91bc1afb5fa895efaec9ccb96a561ebbe2bd91e72bba8cb1e4.png
+11:36:10.298 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\555c93e2ce66a4a5e5594f4c77daf1a8daaa7c50f13c88341cd43298df2d4c9a.png
+11:36:11.348 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\3a45653023e28f856e4ecb292b33896396a074f5b2841d2340065c46c4ba8168.png
+11:36:12.158 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\1d201982642a47db253da58e130fd1dce62b49ba6bcd4bcfe3cdc0b517f101de.png
+11:36:13.314 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\2b4f3209c24c8cf65ddcb1a669411eba15edd2a98c45e89ee6206f13d0e1e99d.png
+11:36:13.331 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1907644816979522946
+11:36:13.331 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\2b4f3209c24c8cf65ddcb1a669411eba15edd2a98c45e89ee6206f13d0e1e99d.png
+ActivoActivoActivo
+11:36:15.353 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\db7217ef6fe4c535897de616abb97f3e124d50573047d0c7c059b82ab1f91467.png
+11:36:15.369 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4232196040991039224
+11:36:15.369 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\db7217ef6fe4c535897de616abb97f3e124d50573047d0c7c059b82ab1f91467.png
+11:36:16.107 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\b4d0e2a40df2658e47bc19ff7daf365d3cf836e8dae324817f18bba7580751bd.png
+11:36:16.123 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8498828395004871061
+11:36:16.123 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\b4d0e2a40df2658e47bc19ff7daf365d3cf836e8dae324817f18bba7580751bd.png
+11:36:18.132 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\5163982552905cc5ca053ad120590e2b4bdf71b665ec7fae186a70511679d3d3.png
+11:36:18.975 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\1f7dd0ed1311b03d0037046b7df48dd31b01f6e77d1e381cb183e7ce96874add.png
+11:36:19.708 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\7ecf556d5e26d717c5de9978d1e699180ad91dfe49b3be576bfbd2b48cc7d1f9.png
+11:36:20.429 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\a6ecb0975d465f9f62f93bd4e0e9fbea68b27ec6cb5b14c16ddde85594d524f4.png
+11:36:20.429 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1484902998462817998
+11:36:20.429 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\a6ecb0975d465f9f62f93bd4e0e9fbea68b27ec6cb5b14c16ddde85594d524f4.png
+11:36:24.845 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\f2715ba5f3861ede3aa68929d0eeb73b4a8c4073c6b0e2d93524b9c7d287a9bb.png
+11:36:24.862 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2419310746573379363
+11:36:24.862 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\f2715ba5f3861ede3aa68929d0eeb73b4a8c4073c6b0e2d93524b9c7d287a9bb.png
+11:36:27.069 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\8cf696e4e921dd5fa48dd5be55dcebd745c194e290a30df164f1648e97847fd3.png
+11:36:27.069 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2878107215550198371
+11:36:27.069 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\8cf696e4e921dd5fa48dd5be55dcebd745c194e290a30df164f1648e97847fd3.png
+Esta seguro de modificar el subscriptor?
+11:36:34.757 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\b938954712a0a55a3809aa98e7a28a6a810bde294aabbf3edff43320007b78ec.png
+11:36:34.766 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-559066245553903616
+11:36:34.766 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\b938954712a0a55a3809aa98e7a28a6a810bde294aabbf3edff43320007b78ec.png
+11:36:36.135 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\eddcc3f0495bd25c9e257b7468ec786c325c791647df148c3a5ef27fe7daffb2.png
+aca
+11:36:36.135 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4417827412278311382
+11:36:36.135 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\eddcc3f0495bd25c9e257b7468ec786c325c791647df148c3a5ef27fe7daffb2.png
+aca
+11:36:36.845 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\a41aee025e4bbd532d73b2ef0fd1d12bec9c416207f5cf7ffc52eca3b7bb2017.png
+11:36:36.845 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8910450947761722778
+11:36:36.845 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\a41aee025e4bbd532d73b2ef0fd1d12bec9c416207f5cf7ffc52eca3b7bb2017.png
+11:36:37.630 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\4cbdce0aff99e58f1fb0e242868d34b5a54d09493b7f447725aab73ac0a72546.png
+11:36:37.630 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4499033619345243790
+11:36:37.630 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\4cbdce0aff99e58f1fb0e242868d34b5a54d09493b7f447725aab73ac0a72546.png
+11:36:40.149 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\9e66917908415b9c65ab9083829843551baa0a7f1cbfd6a0cf70a9f796739d7a.png
+11:36:40.154 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2126203977938759128
+11:36:40.154 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\SanitySemilla10\target\site\serenity\9e66917908415b9c65ab9083829843551baa0a7f1cbfd6a0cf70a9f796739d7a.png
+11:36:41.651 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\SanitySemilla10\target\site\serenity\9e66917908415b9c65ab9083829843551baa0a7f1cbfd6a0cf70a9f796739d7a.png
+11:36:45.342 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: se requiere realizar la suspension de una linea
+--------------------------------------------------------------------------?[0m
+11:36:45.342 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+11:36:45.423 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - ?[91mTEST FAILED AT STEP Then Se deberia ver en pantalla unica la linea en estado suspendida?[0m
+11:36:45.423 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - la linea esta suspendidaExpected: is <1> but: was <0>
+]]></system-out>
+  <system-err><![CDATA[mar 28, 2022 11:35:55 AM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+mar 28, 2022 11:35:55 AM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1648485357575	geckodriver	INFO	Listening on 127.0.0.1:32364
+1648485358055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nriosa\\AppData\\Local\\Temp\\rust_mozprofilevEep2r"
+1648485358730	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1648485358764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1648485358764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1648485358764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1648485358764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1648485361228	Marionette	INFO	Listening on port 54432
+1648485361742	Marionette	WARN	TLS certificate errors will be ignored for this session
+mar 28, 2022 11:36:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+JavaScript error: http://10.69.60.141:8280/portal/scripts/3.8.16.Final-redhat-1/SHARED/bootstrap-min.js, line 7: Error: Script error for: SHARED/navigation
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.69.60.141:8280/portal/scripts/3.8.16.Final-redhat-1/SHARED/bootstrap-min.js, line 7: Error: Script error for: SHARED/jquery
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://10.69.60.141:8280/portal/scripts/3.8.16.Final-redhat-1/SHARED/bootstrap-min.js, line 7: Error: Script error for: SHARED/base
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Consultas?portal:windowState=normal&portal:componentId=gtnc323725e-6efe-4037-9f93-1bc06edfa941&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Consultas?portal:windowState=normal&portal:componentId=gtnc323725e-6efe-4037-9f93-1bc06edfa941&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript error: http://10.69.60.141:8280/portal/CRMPortal/Consultas, line 1: ReferenceError: setIframeListeners is not defined
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Consultas?portal:windowState=normal&portal:componentId=gtnc323725e-6efe-4037-9f93-1bc06edfa941&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Consultas?portal:windowState=normal&portal:componentId=gtnc323725e-6efe-4037-9f93-1bc06edfa941&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript error: http://10.69.60.141:8280/portal/CRMPortal/Consultas, line 1: ReferenceError: setIframeListeners is not defined
+JavaScript error: http://10.69.60.141:8280/portal/CRMPortal/Consultas, line 1: ReferenceError: setIframeListeners is not defined
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Postventa?portal:windowState=normal&portal:componentId=gtnf5a1f4f3-5ecc-4e4a-8654-6459a01c3953&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Postventa?portal:windowState=normal&portal:componentId=gtnf5a1f4f3-5ecc-4e4a-8654-6459a01c3953&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript error: http://10.69.60.141:8280/portal/CRMPortal/Postventa, line 1: ReferenceError: setIframeListeners is not defined
+JavaScript warning: http://10.69.60.135:8280/PostSale/a4j/g/3_3_3.Final/org/ajax4jsf/framework.pack.js.page, line 5514: unreachable code after return statement
+JavaScript warning: http://10.69.60.135:8280/PostSale/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.page, line 12786: unreachable code after return statement
+JavaScript warning: http://10.69.60.135:8280/PostSale/a4j/g/3_3_3.Final/org/richfaces/ui.pack.js.page, line 12786: unreachable code after return statement
+JavaScript error: http://10.69.60.141:8280/portal/CRMPortal/Postventa, line 1: ReferenceError: setIframeListeners is not defined
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Consultas?portal:windowState=normal&portal:componentId=gtnc323725e-6efe-4037-9f93-1bc06edfa941&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript warning: http://10.69.60.141:8280/portal/CRMPortal/Consultas?portal:windowState=normal&portal:componentId=gtnc323725e-6efe-4037-9f93-1bc06edfa941&portal:resourceID=/org.rf.res/org/richfaces/ui.pack.js&portal:cacheLevel=PAGE&portal:type=resource&portal:portletMode=view, line 10431: unreachable code after return statement
+JavaScript error: http://10.69.60.141:8280/portal/CRMPortal/Consultas, line 1: ReferenceError: setIframeListeners is not defined
+1648485401906	Marionette	INFO	Stopped listening on port 54432
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+]]></system-err>
+</testsuite>
