@@ -155,7 +155,7 @@ public class SanitySteps{
 
     @Then("^Se deberia ver en pantalla unica la linea cedida pos$")
     public void seDeberiaVerEnPantallaUnicaLaLineaCedidaPos() {
-        prepaidActivationActions.consultSingleScreen2(dataExcelModels.getMsisdnPostpago());
+        prepaidActivationActions.consultSingleScreen(dataExcelModels.getMsisdnPostpago());
     }
 
     //-----------<Octavo escenario>----------------

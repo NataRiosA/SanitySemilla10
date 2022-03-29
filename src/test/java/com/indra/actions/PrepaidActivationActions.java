@@ -101,7 +101,7 @@ public class PrepaidActivationActions extends PrepaidActivationPage {
         enter(msisdn).into(getMsisdn2());
         getSearchButton().click();
         getGeneralCustomerInformation().waitUntilPresent();
-        WebElement plan = getDriver().findElement(By.id("j_id135:j_id147-1-6"));
+        WebElement plan = getDriver().findElement(By.id("j_id135:j_id161"));
 
         MatcherAssert.assertThat("el plan es Postpago",
                 plan.getText(),Matchers.containsString("Pospago 5.") );
